@@ -11,7 +11,8 @@ raiz2 = (-b - delta)/(a * 2)
 print("a primeira raíz é: " + str(raiz1))
 print("a segunda raíz é: " + str(raiz2))
 
-print("--" * 30)
+#só pra criar uma separação entre os exercícios
+print("-" * 60)
 
 #exercício 2
 

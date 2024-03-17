@@ -51,7 +51,7 @@ testa_dia_semana()
 #exercício 3
 
 def ler_numero():
-    """retorna int's com os números escolhidos"""
+    """retorna float's com os números escolhidos"""
     numero1 = input("informe um número: ")
     numero2 = input("informe outro número: ")
     return float(numero1), float(numero2)
@@ -96,6 +96,7 @@ def imprimeresultado(resultado):
     print(resultado)
 
 def main():
+    """orquestra o passo a passo do prgrama"""
     numero1, numero2 = ler_numero()
     operacao = ler_operacao()
     resultado = seleciona_operacao(numero1, numero2, operacao)

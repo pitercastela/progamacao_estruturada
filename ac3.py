@@ -96,7 +96,7 @@ def imprimeresultado(resultado):
     print(resultado)
 
 def main():
-    """orquestra o passo a passo do prgrama"""
+    """orquestra o passo a passo do programa"""
     numero1, numero2 = ler_numero()
     operacao = ler_operacao()
     resultado = seleciona_operacao(numero1, numero2, operacao)

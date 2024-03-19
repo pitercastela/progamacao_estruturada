@@ -1,6 +1,7 @@
 import random
 
 def main():
+    #variáveis do programa
     #aventureiro
     hp_aventureiro = 100
     atk_aventureiro = random.randint(10, 20)
@@ -11,10 +12,10 @@ def main():
     atk_monstro = random.randint(20, 30)
 
     rodada = 1
-
+    #apresentação dos parâmetros
     print("aventureiro: vida", hp_aventureiro, "-", "att", atk_aventureiro, "-", "def", defesa_aventureiro)
     print("monstro: vida", hp_monstro, "-", "att", atk_monstro)
-
+    #loop principal do programa
     while rodada:
         print("rodada", rodada)
         hp_monstro = hp_monstro - random.randint(1, atk_aventureiro)

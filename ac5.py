@@ -22,11 +22,11 @@ def main():
             print("O monstro morreu!")
             break
         hp_aventureiro = hp_aventureiro - (random.randint(1, atk_monstro) - defesa_aventureiro)
-        rodada += 1
         if hp_aventureiro<= 0:
             print("O aventureiro morreu!")
             break
         print("aventureiro: vida", hp_aventureiro, "-", "att", atk_aventureiro, "-", "def", defesa_aventureiro)
         print("monstro: vida", hp_monstro, "-", "att", atk_monstro)
+        rodada += 1
 
 main()
